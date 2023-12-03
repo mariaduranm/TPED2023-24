@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: 'Aboreto';
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#tipografias {
+    width: 98%;
+    height: 635px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.elementoflex {
+    width: 31%;
+    height: 200px;
+    margin: auto;
+    border-style: double;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: rgb(255, 227, 191);
+    background-color: rgb(255, 244, 233);
+}
+
+#allura {
+    font-family: 'Allura';
+    padding: 15px 10px 10px 25px;
+}
+
+#allura p {
+    font-size: 11pt;
+}
+
+#bonbon {
+    font-family: 'Bonbon';
+    padding: 15px 10px 10px 25px;
+}
+
+#bonbon p {
+    font-size: 9pt;
+}
+
+#comforter {
+    font-family: 'Comforter';
+    padding: 15px 10px 10px 25px;
+}
+
+#comforter p {
+    font-size: 11pt;
+}
+
+#cutivemono {
+    font-family: 'Cutive Mono';
+    padding: 15px 10px 10px 25px;
+}
+
+#cutivemono p {
+    font-size: 9pt;
+}
+
+#monofett {
+    font-family: 'Monofett';
+    padding: 15px 10px 10px 25px;
+}
+
+#monofett p {
+    font-size: 9pt;
+}
+
+#novamono {
+    font-family: 'Nova Mono';
+    padding: 15px 10px 10px 25px;
+}
+
+#novamono p {
+    font-size: 8pt;
+}
+
+#rubik {
+    font-family: 'Rubik Beastly';
+    padding: 15px 10px 10px 25px;
+}
+
+#rubik p {
+    font-size: 9pt;
+}
+
+#abril {
+    font-family: 'Abril Fatface';
+    padding: 15px 10px 10px 25px;
+}
+
+#abril p {
+    font-size: 9pt;
+}
+
+#aclonica {
+    font-family: 'Aclonica';
+    padding: 15px 10px 10px 25px;
+}
+
+#aclonica p {
+    font-size: 9pt;
+}
