@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/fondo.jpg);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    color: rgb(46, 46, 46);
+}
+
+header {
+    width: 100%;
+    background-color: rgb(132, 168, 227);
+    padding: 15px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+
+h5 {
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    font-size: 18pt;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+main {
+    width: 75%;
+    padding: 10% 5% 5% 5%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Salsa', cursive;
+    font-size: 30pt;
+    padding-bottom: 30px;
+}
+
+#tani {
+    width: 100%;
+    height: 45px;
+    border-radius: 0px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto {
+    width: 400px;
+    height: 267px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+.proyecto:hover {
+    filter: grayscale(0%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}

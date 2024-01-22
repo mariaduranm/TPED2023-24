@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/fondo.jpg);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    color: rgb(46, 46, 46);
+}
+
+header {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(132, 168, 227);
+    padding: 15px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+h5 {
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    font-size: 18pt;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    width: 75%;
+    padding: 10% 5% 10% 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Salsa', cursive;
+    font-size: 30pt;
+    padding-bottom: 30px;
+}
+
+#tani {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#trestildes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.b {
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 168, 227);
+    border-radius: 20px;
+    font-size: 17pt;
+}
+
+.b:hover {
+    font-weight: bolder;
+}
+
+#inferior {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+#proyectos {
+    padding-right: 20%;
+}
+
+#icono {
+    width: 200px;
+    height: 142px;
+    border-radius: 15px;
+}
+
+p {
+    padding: 20px;
+}
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
